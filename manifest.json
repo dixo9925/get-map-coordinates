@@ -3,11 +3,10 @@
     "name": "get-map-coordinates",
     "type": "widget",
     "version": "1.14.0",
-    // *** ADD ***
-    "dependency": ["jimu-arcgis"],
+    "dependency": "jimu-arcgis",
     "exbVersion": "1.14.0",
     "author": "Dixon Hass",
-    "description": "A hello world starter widget",
+    "description": "enables mouse cursor to map coordinates translation",
     "copyright": "",
     "license": "",
     "properties": {},
