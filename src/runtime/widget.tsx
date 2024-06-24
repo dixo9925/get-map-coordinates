@@ -26,7 +26,8 @@ const activeViewChangeHandler = (jmv: JimuMapView) => {
   <div className="widget_starter jimu-widget"> {props.useMapWidgetIds && props.useMapWidgetIds.length === 1 && (
     <JimuMapViewComponent useMapWidgetId={props.useMapWidgetIds?.[0]} onActiveViewChange={activeViewChangeHandler} />
   )}
+   <p>
+      Lat/Lon: {latitude} {longitude}
+    </p>
   </div>
-}
-
-export default Widget
+};
