@@ -31,3 +31,5 @@ const activeViewChangeHandler = (jmv: JimuMapView) => {
     </p>
   </div>
 };
+
+export default Widget
